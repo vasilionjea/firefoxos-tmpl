@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="pragma" content="no-cache">
+
+    <title>Firefox OS Starter</title>
+    <meta name="description" content="Another Firefox OS App...">
+    <meta name="viewport" content="width=device-width">
+
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+  <body role="application">
+    <!-- Use this installation button to install locally without going through the marketpace (see app.js) -->
+    <!-- <button id="install-btn">Install</button>  -->
+
+    <!-- Drawer Menu -->
+    <nav id="app-menu" data-state="none">
+      <header>
+        <menu type="toolbar">
+         <a href="#"><span class="icon icon-add">add</span></a>
+        </menu>
+        <h1>Topics <em>(8)</em></h1>
+      </header>
+
+      <div class="inner">
+        <h2>Front End</h2>
+        <ul>
+          <li><a href="#">JavaScript</a></li>
+          <li><a href="#">jQuery</a></li>
+          <li><a href="#">CSS</a></li>
+          <li><a href="#">SASS</a></li>
+        </ul>
+
+        <h2>Back End</h2>
+        <ul>
+          <li><a href="#">Python</a></li>
+          <li><a href="#">Ruby</a></li>
+          <li><a href="#">PHP</a></li>
+          <li><a href="#">MongoDB</a></li>
+        </ul>
+      </div>
+
+      <div role="toolbar">
+        <ul>
+          <li><button class="update">Update</button></li>
+        </ul>
+        <ul class="end">
+          <li><button class="search">Search</button></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- App Content -->
+    <section role="region" id="app-panel" class="skin-dark">
+      <header>
+        <a href="#" id="open-menu"><span class="icon icon-menu">menu</span></a>
+        <h1>Top Stack</h1>
+      </header>
+
+      <header><h2>Top #10 from all categories:</h2></header>
+
+      <section role="main">
+        <ul>
+            <li data-state="tagged" data-tag="A">
+              <a href="#">
+               <dl>
+                 <dt>Protoypal Inheritance in OO JS...</dt>
+                 <dd><span>js, DOM, html5, objects, inheritance</span></dd>
+               </dl>
+              </a>
+            </li>
+
+            <li data-state="tagged" data-tag="B">
+              <a href="#">
+                <dl>
+                  <dt>How to crate an Firefox OS app...</dt>
+                  <dd><span>firefox-os, mobile, mozilla</span></dd>
+                </dl>
+              </a>
+            </li>
+
+            <li data-state="tagged" data-tag="A">
+              <a href="#">
+                <dl>
+                  <dt>jQuery custom event querstion...</dt>
+                  <dd><span>jquery, js, events, dom</span></dd>
+                </dl>
+              </a>
+            </li>
+
+            <li data-state="tagged" data-tag="B">
+              <a href="#">
+                <dl>
+                  <dt>PDO Driver for MySQL in PHP...</dt>
+                  <dd><span>php, db, mysql, pdo</span></dd>
+                </dl>
+              </a>
+            </li>
+
+            <li data-state="tagged" data-tag="A">
+              <a href="#">
+               <dl>
+                 <dt>SQL inner join 2 or more tables...</dt>
+                 <dd><span>sql, mysql, database, server</span></dd>
+               </dl>
+              </a>
+            </li>
+
+            <li data-state="tagged" data-tag="B">
+              <a href="#">
+                <dl>
+                  <dt>PhoneGap vibration api doesn't work...</dt>
+                  <dd><span>phonegap, ios, javascript, mobile</span></dd>
+                </dl>
+              </a>
+            </li>
+
+            <li data-state="tagged" data-tag="A">
+              <a href="#">
+                <dl>
+                  <dt>My ajax post request has a bug or something...</dt>
+                  <dd><span>ajax, jquery, javascript, http</span></dd>
+                </dl>
+              </a>
+            </li>
+
+            <li data-state="tagged" data-tag="B">
+              <a href="#">
+                <dl>
+                  <dt>Wordpress really sucks but I'm still using it...</dt>
+                  <dd><span>wordpress, crap, php, db, mysql, pdo</span></dd>
+                </dl>
+              </a>
+            </li>
+
+            <li data-state="tagged" data-tag="A">
+              <a href="#">
+                <dl>
+                  <dt>Iterators in Ruby - don't understand...</dt>
+                  <dd><span>ruby, iterators, Enumerator object</span></dd>
+                </dl>
+              </a>
+            </li>
+
+            <li data-state="tagged" data-tag="B">
+              <a href="#">
+                <dl>
+                  <dt>MongoDB update a document but not when...</dt>
+                  <dd><span>mongo, nosql, db, documents</span></dd>
+                </dl>
+              </a>
+            </li>
+        </ul>
+      </section>
+    </section>
+    
+    <!-- 
+    Using require.js, a module system for javascript, to include the js files. 
+    This loads "main.js", which in turn can load other files, all handled by require.js:
+    http://requirejs.org/docs/api.html#jsfiles -->
+    <script src="js/lib/require.js" data-main="js/init.js"></script>
+  </body>
+</html>
