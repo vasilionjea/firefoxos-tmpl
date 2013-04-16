@@ -10,12 +10,12 @@ template collection for building Open Web Apps.
 
 There are a few ways to get this template:
 
-* git clone git://github.com/vasilionjea/firefox-os-starter.git your-app-name
-* volo create your-app-name vasilionjea/firefox-os-starter
+   1. `git clone git://github.com/vasilionjea/firefox-os-starter.git your-app-name`
+   2. `volo create your-app-name vasilionjea/firefox-os-starter`
 
 If you have node installed, you can run a development server with volo:
 
-1. cd your-app-name
-2. volo serve
+    cd your-app-name
+    volo serve
 
-View the app at http://localhost:8008/ with the Firefox OS Simulator (it's an addon for firefox itself).
+View the app at `http://localhost:8008/` with the Firefox OS Simulator (it's an addon for firefox itself).
