@@ -1,14 +1,16 @@
-# A Starter Template for Open Web Apps
+## A Starter template for Open Web Apps
 
 A minimal template that has a little HTML, CSS, and js to help
 you start writing an [Open Web App](http://www.mozilla.org/en-US/firefox/partners/). This is a modified version of the [mortar](https://github.com/mozilla/mortar/)
 template collection for building Open Web Apps.
 
+---
+
 <p align="center">
   <img src="http://istocode.com/shared/img/ios-simulator-screen-shot.png" alt="ios simulator screen shot">
 </p>
 
-# Usage
+## Usage
 
 There are a few ways to get this template:
 
